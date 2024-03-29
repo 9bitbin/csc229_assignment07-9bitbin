@@ -38,9 +38,9 @@ public class LinearSearch {
 
         // Check the result and print appropriate message.
         if (result == -1) {
-            System.out.println("Element not found in the array."); // Print if the element was not found.
+            System.out.println("Element is not found in the array."); // Print if the element was not found.
         } else {
-            System.out.println("Element found at index: " + result); // Print the index if the element was found.
+            System.out.println("Element is found at index: " + result); // Print the index if the element was found.
         }
     }
 }
